@@ -5,7 +5,39 @@
 }
 
 .details {
-    padding: 1rem;
+    /* padding: 1rem; */
     border: 1px solid black;
     flex: 0.7;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: url('../../Assets/Images/details__bg.webp');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* .details::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../Assets/Images/details__bg.webp');
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+    z-index: -1;
+} */
+
+.form {
+    padding: 1rem;
+    gap: 1rem;
+    width: 50%;
+}
+
+.details div {
+    margin-bottom: 1rem;
+    justify-content: space-between;
 }

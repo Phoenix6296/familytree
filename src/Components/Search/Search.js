@@ -1,13 +1,18 @@
-import styles from './Search.module.css'
 import SearchIcon from '@mui/icons-material/Search';
+import { InputAdornment, OutlinedInput } from '@mui/material';
 const Search = () => {
     return (
-        <div className={`${styles.search} ${styles.center}`}>
-            <input type="text" placeholder="Search a Member" />
-            <SearchIcon sx={{
-                cursor: 'pointer',
-            }} />
-        </div>
+        <OutlinedInput
+            type="text"
+            placeholder="Search a Member"
+            fullWidth
+            sx={{ border: 'none' }}
+            endAdornment={
+                <InputAdornment position="start">
+                    <SearchIcon />
+                </InputAdornment>
+            }
+        />
     )
 }
 
