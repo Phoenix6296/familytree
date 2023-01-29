@@ -1,0 +1,13 @@
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tree {
+    padding: 0.5rem;
+    border-radius: 10px;
+    /* width: 100%; */
+    flex: 1;
+    border: 2px solid black;
+}
