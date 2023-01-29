@@ -1,0 +1,7 @@
+.member {
+    display: flex;
+}
+
+.member>div {
+    display: flex;
+}
